@@ -1,0 +1,6 @@
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\obj\Debug\netstandard2.0\Mo.RasaTrainer.Application.csprojAssemblyReference.cache
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\obj\Debug\netstandard2.0\Mo.RasaTrainer.Application.csproj.CoreCompileInputs.cache
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\obj\Debug\netstandard2.0\Mo.RasaTrainer.Application.AssemblyInfoInputs.cache
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\obj\Debug\netstandard2.0\Mo.RasaTrainer.Application.AssemblyInfo.cs
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\bin\Debug\netstandard2.0\Mo.RasaTrainer.Application.deps.json
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.Application\bin\Debug\netstandard2.0\Mo.RasaTrainer.Application.dll

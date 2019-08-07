@@ -1,0 +1,11 @@
+__pycache__
+*.log
+failed_stories.md
+story_confmat.md
+test_env
+src/rasa-bert/chinese_L-12_H-768_A-12
+src/rasa-bert/tmp*/
+src/rasa-chatbot/models/*
+src/rasa-chatbot/report
+link
+/.vs

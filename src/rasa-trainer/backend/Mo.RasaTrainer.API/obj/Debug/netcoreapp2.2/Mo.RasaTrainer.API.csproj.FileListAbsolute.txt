@@ -1,0 +1,3 @@
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.API\obj\Debug\netcoreapp2.2\Mo.RasaTrainer.API.csproj.CoreCompileInputs.cache
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.API\obj\Debug\netcoreapp2.2\Mo.RasaTrainer.API.AssemblyInfoInputs.cache
+F:\zengande\mo.ai\src\rasa-trainer\backend\Mo.RasaTrainer.API\obj\Debug\netcoreapp2.2\Mo.RasaTrainer.API.AssemblyInfo.cs

@@ -1,0 +1,32 @@
+intents:
+- None
+- greet
+- 丧假
+- 员工体检
+- 内部推荐
+- 公司门禁
+- 公积金
+- 出差申请
+- 产假
+- 事假
+- 出差
+- 下载限速
+- 人事调动
+- 发票
+- 员工入职
+- OneDrive
+- 员工培训
+- 创建热点
+- 公司电脑使用
+- 名片
+- 加班工资怎么算
+
+actions:
+- action_search_consume
+- utter_greet
+
+templates:
+  utter_default:
+  - text: "不好意思，我不能回答你这个问题。"
+  utter_greet:
+  - text: "你好！"

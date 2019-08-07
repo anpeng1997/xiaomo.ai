@@ -1,0 +1,698 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "OneDrive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive是什么",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive是什么",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive是啥",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive是啥",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "什么是OneDrive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "什么叫OneDrive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "什么是one drive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "什么叫one drive",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive怎么用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive怎么用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive如何使用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive如何使用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive怎么使用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive怎么使用",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive能做什么",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive能做什么",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive能做啥",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive能做啥",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "OneDrive账号",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "one drive账号",
+                "intent": "OneDrive",
+                "entities": []
+            },
+            {
+                "text": "下载限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "为什么下载限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "为啥下载限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "怎么会下载限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "下载被限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "为什么下载被限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "为啥下载被限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "怎么会下载被限速",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "公司网络下载限速多少",
+                "intent": "下载限速",
+                "entities": []
+            },
+            {
+                "text": "丧假有多久",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "丧假制度",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "丧假可以请几天",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "什么是丧假",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "什么叫丧假",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "丧假是什么",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "丧假是啥",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "亲人去世",
+                "intent": "丧假",
+                "entities": []
+            },
+            {
+                "text": "事假制度",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "事假制度是什么",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "事假制度是啥",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "事假可以请几天",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "有事想请假",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "有事可以请假吗",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "私事请假",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "请假扣工资吗",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "我有事想请假",
+                "intent": "事假",
+                "entities": []
+            },
+            {
+                "text": "产假",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假是什么",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假是啥",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "什么是产假",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "什么叫产假",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假可以陪多久",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假怎么休",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假规定",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "产假有多少天",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "女职工产假",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "妻子生产",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "我当爸爸了",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "老婆生孩子了",
+                "intent": "产假",
+                "entities": []
+            },
+            {
+                "text": "人事调动",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "什么是人事调动",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "什么叫人事调动",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "公司人事调动",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "关于人事调动",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "升职",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "变更职位",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "岗位变更",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "换岗",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "更换工作地点",
+                "intent": "人事调动",
+                "entities": []
+            },
+            {
+                "text": "公司电脑申请流程",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "怎么申请公司电脑",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "如何申请公司电脑",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "公司电脑使用方式",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "公司电脑怎么申请",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "公司电脑如何申请",
+                "intent": "公司电脑使用",
+                "entities": []
+            },
+            {
+                "text": "公司门禁怎么用",
+                "intent": "公司门禁",
+                "entities": []
+            },
+            {
+                "text": "公司门禁如何使用",
+                "intent": "公司门禁",
+                "entities": []
+            },
+            {
+                "text": "公司门禁怎么使用",
+                "intent": "公司门禁",
+                "entities": []
+            },
+            {
+                "text": "怎么缴纳公积金",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "如何缴纳公积金",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "什么是公积金",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "什么叫公积金",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "公积金是什么",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "公积金是啥",
+                "intent": "公积金",
+                "entities": []
+            },
+            {
+                "text": "怎么内部推荐",
+                "intent": "内部推荐",
+                "entities": []
+            },
+            {
+                "text": "如何内部推荐",
+                "intent": "内部推荐",
+                "entities": []
+            },
+            {
+                "text": "我想推荐人",
+                "intent": "内部推荐",
+                "entities": []
+            },
+            {
+                "text": "什么是出差",
+                "intent": "出差",
+                "entities": []
+            },
+            {
+                "text": "什么叫出差",
+                "intent": "出差",
+                "entities": []
+            },
+            {
+                "text": "出差是什么",
+                "intent": "出差",
+                "entities": []
+            },
+            {
+                "text": "出差是啥",
+                "intent": "出差",
+                "entities": []
+            },
+            {
+                "text": "怎么提报出差申请",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "如何提报出差申请",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "出差怎么申请",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "出差如何申请",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "出差申请怎么提报",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "出差申请如何提报",
+                "intent": "出差申请",
+                "entities": []
+            },
+            {
+                "text": "怎么创建热点",
+                "intent": "创建热点",
+                "entities": []
+            },
+            {
+                "text": "如何创建热点",
+                "intent": "创建热点",
+                "entities": []
+            },
+            {
+                "text": "加班工资怎么算",
+                "intent": "加班工资怎么算",
+                "entities": []
+            },
+            {
+                "text": "加班工资如何算",
+                "intent": "加班工资怎么算",
+                "entities": []
+            },
+            {
+                "text": "加班有工资吗",
+                "intent": "加班工资怎么算",
+                "entities": []
+            },
+            {
+                "text": "加班发工资吗",
+                "intent": "加班工资怎么算",
+                "entities": []
+            },
+            {
+                "text": "发票能做什么",
+                "intent": "发票",
+                "entities": []
+            },
+            {
+                "text": "发票能做啥",
+                "intent": "发票",
+                "entities": []
+            },
+            {
+                "text": "发票怎么用",
+                "intent": "发票",
+                "entities": []
+            },
+            {
+                "text": "发票如何使用",
+                "intent": "发票",
+                "entities": []
+            },
+            {
+                "text": "发票怎么使用",
+                "intent": "发票",
+                "entities": []
+            },
+            {
+                "text": "怎么申请制作名片",
+                "intent": "名片",
+                "entities": []
+            },
+            {
+                "text": "如何申请制作名片",
+                "intent": "名片",
+                "entities": []
+            },
+            {
+                "text": "怎么制作名片",
+                "intent": "名片",
+                "entities": []
+            },
+            {
+                "text": "如何制作名片",
+                "intent": "名片",
+                "entities": []
+            },
+            {
+                "text": "员工有体检吗",
+                "intent": "员工体检",
+                "entities": []
+            },
+            {
+                "text": "员工体检制度",
+                "intent": "员工体检",
+                "entities": []
+            },
+            {
+                "text": "员工多久体检",
+                "intent": "员工体检",
+                "entities": []
+            },
+            {
+                "text": "员工体检",
+                "intent": "员工体检",
+                "entities": []
+            },
+            {
+                "text": "员工入职需要办理哪些手续",
+                "intent": "员工入职",
+                "entities": []
+            },
+            {
+                "text": "员工入职的具体流程",
+                "intent": "员工入职",
+                "entities": []
+            },
+            {
+                "text": "员工入职的流程",
+                "intent": "员工入职",
+                "entities": []
+            },
+            {
+                "text": "入职手续",
+                "intent": "员工入职",
+                "entities": []
+            },
+            {
+                "text": "员工培训有哪些内容呢",
+                "intent": "员工培训",
+                "entities": []
+            },
+            {
+                "text": "员工培训内容",
+                "intent": "员工培训",
+                "entities": []
+            },
+            {
+                "text": "员工培训方式",
+                "intent": "员工培训",
+                "entities": []
+            },
+            {
+                "text": "员工培训",
+                "intent": "员工培训",
+                "entities": []
+            },
+            {
+                "text": "你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你好呀",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你好啊",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "上午好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "下午好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "晚上好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你还好吗",
+                "intent": "greet",
+                "entities": []
+            }
+        ]
+    }
+}
