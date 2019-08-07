@@ -34,5 +34,6 @@ policies:
     fallback_action_name: 'action_default_fallback'
     nlu_threshold: 0.7
     core_threshold: 0.5
+    
   - name: MemoizationPolicy
     max_history: 3

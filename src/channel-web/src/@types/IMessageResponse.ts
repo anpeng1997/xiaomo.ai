@@ -1,4 +1,4 @@
-export default interface IMessage {
+export default interface IMessageResponse {
     recipient_id: string;
     text: string;
     image?: string;
