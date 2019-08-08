@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj": {}
+    "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj": {}
   },
   "projects": {
-    "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj": {
+    "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
+        "projectUniqueName": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
         "projectName": "Mo.RasaTrainer.Domain",
-        "projectPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
+        "projectPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\obj\\",
+        "outputPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -66,14 +66,14 @@
         }
       }
     },
-    "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj": {
+    "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj",
+        "projectUniqueName": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj",
         "projectName": "Mo.RasaTrainer.Storage",
-        "projectPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj",
+        "projectPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\Mo.RasaTrainer.Storage.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\obj\\",
+        "outputPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Storage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -102,8 +102,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj": {
-                "projectPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj"
+              "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj": {
+                "projectPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj"
               }
             }
           }

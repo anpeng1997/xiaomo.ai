@@ -5,9 +5,9 @@
 
 ## Components
 ### Rasa NLU Trainer
-1. Training data（intent, entity, example）
-2. Response（utter）
-3. Stories
+1. Training data（intent, entity, example）:训练数据
+2. Response（utter）：回复内容
+3. Stories：对话流程
 4. Models
 5. Domain
 6. Config
@@ -16,3 +16,9 @@
 ### Actions
 
 ### Channel
+
+1. 获得训练数据以及回复内容
+2. 对话流程设计
+3. 前端对话界面
+4. 后端 api
+5. 后台管理维护界面

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
+      "projectUniqueName": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
       "projectName": "Mo.RasaTrainer.Domain",
-      "projectPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
+      "projectPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\Mo.RasaTrainer.Domain.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\zengande\\mo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\obj\\",
+      "outputPath": "F:\\zengande\\xiaomo.ai\\src\\rasa-trainer\\backend\\Mo.RasaTrainer.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
