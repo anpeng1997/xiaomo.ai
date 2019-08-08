@@ -9,3 +9,4 @@ src/rasa-chatbot/models/*
 src/rasa-chatbot/report
 link
 /.vs
+*/node_modules

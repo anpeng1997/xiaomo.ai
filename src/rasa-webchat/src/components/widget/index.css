@@ -1,0 +1,16 @@
+.launcher {
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  background: #13a5ea;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  overflow: hidden;
+  position: fixed;
+}
+.launcher.right-bottom {
+  right: 30px;
+  bottom: 30px;
+}

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.API", "src\rasa-trainer\backend\Mo.RasaTrainer.API\Mo.RasaTrainer.API.csproj", "{63E16B6B-B36C-476B-8EF4-46FFA690A25E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.API", "backend\Mo.RasaTrainer.API\Mo.RasaTrainer.API.csproj", "{63E16B6B-B36C-476B-8EF4-46FFA690A25E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A7F54430-643C-4286-9121-C198F13F4823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Domain", "src\rasa-trainer\backend\Mo.RasaTrainer.Domain\Mo.RasaTrainer.Domain.csproj", "{263E0BE6-9164-4ABA-8B2C-E204214DECBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Domain", "backend\Mo.RasaTrainer.Domain\Mo.RasaTrainer.Domain.csproj", "{263E0BE6-9164-4ABA-8B2C-E204214DECBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Application", "src\rasa-trainer\backend\Mo.RasaTrainer.Application\Mo.RasaTrainer.Application.csproj", "{DB2DE54F-83FF-493B-B5C5-9655E7FC3C9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Application", "backend\Mo.RasaTrainer.Application\Mo.RasaTrainer.Application.csproj", "{DB2DE54F-83FF-493B-B5C5-9655E7FC3C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Storage", "src\rasa-trainer\backend\Mo.RasaTrainer.Storage\Mo.RasaTrainer.Storage.csproj", "{FFC6BADA-D36E-4465-90A1-B896D19BF308}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mo.RasaTrainer.Storage", "backend\Mo.RasaTrainer.Storage\Mo.RasaTrainer.Storage.csproj", "{FFC6BADA-D36E-4465-90A1-B896D19BF308}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
