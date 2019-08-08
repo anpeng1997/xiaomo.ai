@@ -1,37 +1,104 @@
+intents:
+- are_you_happy
+- greet
+- where_do_you_live
+- None
+- are_you_hungry
+- i_need_help
+- i_like_you
+- what_can_you_do
+- what_is_your_name
+- are_you_ready
+- nice_to_see_you
+- tell_me_a_joke
+- you_are_good
+- you_are_fool
+- chitchat.i_need_help
+- 内部推荐
+- 公司门禁
+- Set_up_a_Skype_for_Business_meeting_on_behalf_of_someone_else
+- Start_an_impromptu_Skype_for_Business_meeting
+- Call_into_a_Skype_for_Business_meeting_on_your_mobile_or_other_phone
+- 下载限速
+- 员工入职
+- chitchat.are_you_hungry
+- 公司电脑使用
+- 产假
+- chitchat.tell_me_a_joke
+- Set_up_a_Skype_for_Business_meeting_in_Outlook
+- 发票
+- 名片
+- chitchat.you_are_good
+- 事假
+- 人事调动
+- 出差
+- chichat.you_are_fool
+- 创建热点
+- 公积金
+- chichat.what_is_your_name
+- chitchat.where_do_you_live
+- 员工培训
+- chitchat.what_can_you_do
+- Mute_or_unmute_your_microphone_in_a_Skype_for_Business_meeting_or_call
+- 丧假
+- chitchat.are_you_happy
+- Start_a_Skype_for_Business_conference_call
+- 员工体检
+- Join_a_Skype_for_Business_meeting
+- chitchat.nice_to_see_you
+- Switch_the_meeting_audio_to_your_phone
+- Find_a_local_number_to_Join_a_Skype_for_Business_meeting
+- Let_the_Skype_for_Business_meeting_call_you
+- 加班工资怎么算
+- OneDrive
+- chitchat.are_you_ready
+- 出差申请
+- chitchat.i_like_you
+templates:
+  utter_what_can_you_do:
+  - text: 我能做的事儿可多了，比如你可以问我：
+    buttons:
+    - title: 给我讲个笑话
+      payload: /tell_me_a_joke
+  utter_you_are_good:
+  - text: 谢谢你的夸奖，我会更加努力的！
+  - text: 你的夸奖让我感觉像吃了糖一样甜~
+  utter_you_are_fool:
+  - text: 虽然我是笨笨的，但是我会努力的！
+  - text: 对不起给你带来不好的体验，我会改正的！
+  utter_what_is_your_name:
+  - text: 我叫小摩AI，是你的智能助理。
+  - text: 我是小摩AI呀，快来跟我聊天吧~
+  utter_i_need_help:
+  - text: 我很乐意帮助你，请问你需要我做点什么？
+  - text: 需要我为你做些什么？
+  utter_where_do_you_live:
+  - text: 住在你的心里呀~~
+  - text: 你在哪儿，我在哪儿
+  utter_are_you_happy:
+  - text: 遇见你我就很开心了
+  utter_are_you_hungry:
+  - text: 饿了，请我去吃饭吧
+  - text: 你在问我吗，我不需要吃饭的呀！！
+  utter_are_you_ready:
+  - text: 时刻准备着
+  utter_nice_to_see_you:
+  - text: 我也很开心
+  utter_i_like_you:
+  - text: 笔芯
+  - text: 阿姨洗铁路
 actions:
 - action_search_consume
 - action_tell_jokes
-
-templates:
-  utter_what_can_you_do:
-  - text: "我能做的事儿可多了，比如你可以问我："
-    buttons:
-    - title: "给我讲个笑话"
-      payload: "/tell_me_a_joke"
-  utter_you_are_good:
-  - text: "谢谢你的夸奖，我会更加努力的！"
-  - text: "你的夸奖让我感觉像吃了糖一样甜~"
-  utter_you_are_fool:
-  - text: "虽然我是笨笨的，但是我会努力的！"
-  - text: "对不起给你带来不好的体验，我会改正的！"
-  utter_what_is_your_name:
-  - text: "我叫小摩AI，是你的智能助理。"
-  - text: "我是小摩AI呀，快来跟我聊天吧~"
-  utter_i_need_help:
-  - text: "我很乐意帮助你，请问你需要我做点什么？"
-  - text: "需要我为你做些什么？"
-  utter_where_do_you_live:
-  - text: "住在你的心里呀~~"
-  - text: "你在哪儿，我在哪儿"
-  utter_are_you_happy: 
-  - text: "遇见你我就很开心了"
-  utter_are_you_hungry:
-  - text: "饿了，请我去吃饭吧"
-  - text: "你在问我吗，我不需要吃饭的呀！！"
-  utter_are_you_ready:
-  - text: "时刻准备着"
-  utter_nice_to_see_you:
-  - text: "我也很开心"
-  utter_i_like_you:
-  - text: "笔芯"
-  - text: "阿姨洗铁路"
+- utter_i_like_you
+- utter_i_need_help
+- utter_greet
+- utter_where_do_you_live
+- utter_you_are_fool
+- utter_you_are_good
+- utter_nice_to_see_you
+- utter_are_you_hungry
+- utter_what_is_your_name
+- utter_what_can_you_do
+- utter_are_you_happy
+- utter_are_you_ready
