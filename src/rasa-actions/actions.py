@@ -6,6 +6,6 @@ class ActionTellJokes(Action):
   
     def run(self, dispatcher, tracker, domain):
         # send utter default template to user
-        dispatcher.utter_message("从前有座山", tracker)
+        dispatcher.utter_message("从前有座山")
         # ... other code
         return []
