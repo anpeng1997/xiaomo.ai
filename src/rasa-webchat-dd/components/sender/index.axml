@@ -1,0 +1,5 @@
+<view class="sender-container">
+    <button>Button</button>
+    <input placeholder="快来和我聊天吧" />
+    <button>Button</button>
+</view>

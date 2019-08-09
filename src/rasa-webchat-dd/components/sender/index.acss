@@ -1,0 +1,9 @@
+.sender-container{
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid red;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
