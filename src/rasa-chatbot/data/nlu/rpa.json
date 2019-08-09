@@ -1,0 +1,18 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "intent": "rpa.application_for_payment",
+                "text": "付款申请",
+                "entities": []
+            },
+            {
+                "intent": "rpa.application_for_payment",
+                "text": "提交付款申请",
+                "entities": []
+            }
+        ]
+    }
+}

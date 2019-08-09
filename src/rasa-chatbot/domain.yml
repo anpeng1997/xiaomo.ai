@@ -14,8 +14,7 @@ intents:
 - you_are_good
 - you_are_fool
 - chitchat.i_need_help
-- 内部推荐
-- 公司门禁
+
 - Set_up_a_Skype_for_Business_meeting_on_behalf_of_someone_else
 - Start_an_impromptu_Skype_for_Business_meeting
 - Call_into_a_Skype_for_Business_meeting_on_your_mobile_or_other_phone
@@ -54,6 +53,7 @@ intents:
 - chitchat.are_you_ready
 - 出差申请
 - chitchat.i_like_you
+- rpa.application_for_payment
 templates:
   utter_what_can_you_do:
   - text: 我能做的事儿可多了，比如你可以问我：
@@ -102,3 +102,5 @@ actions:
 - utter_what_can_you_do
 - utter_are_you_happy
 - utter_are_you_ready
+forms:
+- application_for_payment_form

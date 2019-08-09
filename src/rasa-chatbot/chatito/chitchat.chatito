@@ -1,0 +1,78 @@
+%[chitchat.what_can_you_do]('training':'100','testing':'20')
+    你会做什么
+    你能做哪些事儿
+    你有哪些功能
+    你能做什么
+
+%[chitchat.tell_me_a_joke]('training':'100','testing':'20')
+    给我讲个笑话
+    我想听笑话
+    我不开心
+    我很伤心
+    讲个开心的事
+    我想听开心的事
+%[chitchat.you_are_good]('training':'100','testing':'20')
+    你真好
+    你真棒
+    你做的很好
+    你真聪明
+    你真能干
+    你真是个小机灵鬼
+    你怎么这么聪明
+
+%[chichat.you_are_fool]('training':'100','testing':'20')
+    你真笨
+    你个笨蛋
+    你好笨啊
+    你太笨了吧
+    你是笨蛋
+    你好智障
+
+%[chichat.what_is_your_name]('training':'100','testing':'20')
+    你叫什么名字
+    你叫啥
+    告诉我你叫什么
+    你的名字
+    你是谁
+
+%[chitchat.i_need_help]('training':'100','testing':'20')
+    我需要帮助
+    我需要你帮我
+    我有一个问题
+    帮我一下
+    能帮我一下吗
+
+%[chitchat.where_do_you_live]('training':'100','testing':'20')
+    你住哪儿
+    你住在哪里
+    你家在哪儿
+
+%[chitchat.are_you_happy]('training':'100','testing':'20')
+    你开心吗
+    你高兴吗
+    你感觉开心吗
+    你幸福吗
+    你今天开心吗
+
+%[chitchat.are_you_hungry]('training':'100','testing':'20')
+    你饿吗
+    你饿了吗
+    你会不会饿
+    你感觉饿吗
+    你想吃饭吗
+
+%[chitchat.are_you_ready]('training':'100','testing':'20')
+    你准备好了吗
+    准备好了吗
+    准备好了吗现在
+
+%[chitchat.nice_to_see_you]('training':'100','testing':'20')
+    很高兴见到你
+    见到你很高心
+    见到你很开心
+    nice to see you
+
+%[chitchat.i_like_you]('training':'100','testing':'20')
+    我喜欢你
+    我很喜欢你
+    我好喜欢你
