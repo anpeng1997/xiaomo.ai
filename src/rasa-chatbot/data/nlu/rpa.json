@@ -12,6 +12,9 @@
                 "intent": "rpa.application_for_payment",
                 "text": "提交付款申请",
                 "entities": []
+            },{
+                "intent":"inform",
+                "text":"付款编号：20180101HZ"
             }
         ]
     }

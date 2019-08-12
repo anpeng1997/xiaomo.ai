@@ -1,59 +1,29 @@
 intents:
-- are_you_happy
-- greet
-- where_do_you_live
-- None
-- are_you_hungry
-- i_need_help
-- i_like_you
-- what_can_you_do
-- what_is_your_name
-- are_you_ready
-- nice_to_see_you
-- tell_me_a_joke
-- you_are_good
-- you_are_fool
 - chitchat.i_need_help
-
-- Set_up_a_Skype_for_Business_meeting_on_behalf_of_someone_else
-- Start_an_impromptu_Skype_for_Business_meeting
-- Call_into_a_Skype_for_Business_meeting_on_your_mobile_or_other_phone
-- 下载限速
-- 员工入职
-- chitchat.are_you_hungry
-- 公司电脑使用
-- 产假
-- chitchat.tell_me_a_joke
-- Set_up_a_Skype_for_Business_meeting_in_Outlook
-- 发票
-- 名片
-- chitchat.you_are_good
-- 事假
-- 人事调动
-- 出差
-- chichat.you_are_fool
-- 创建热点
-- 公积金
-- chichat.what_is_your_name
-- chitchat.where_do_you_live
-- 员工培训
-- chitchat.what_can_you_do
-- Mute_or_unmute_your_microphone_in_a_Skype_for_Business_meeting_or_call
-- 丧假
-- chitchat.are_you_happy
-- Start_a_Skype_for_Business_conference_call
-- 员工体检
-- Join_a_Skype_for_Business_meeting
-- chitchat.nice_to_see_you
-- Switch_the_meeting_audio_to_your_phone
-- Find_a_local_number_to_Join_a_Skype_for_Business_meeting
-- Let_the_Skype_for_Business_meeting_call_you
-- 加班工资怎么算
-- OneDrive
+- chitchat.you_are_fool
 - chitchat.are_you_ready
-- 出差申请
+- chitchat.are_you_hungry
+- chitchat.where_do_you_live
+- chitchat.are_you_happy
+- chitchat.tell_me_a_joke
 - chitchat.i_like_you
+- chitchat.what_is_your_name
+- chitchat.what_can_you_do
+- chitchat.you_are_good
+- chitchat.nice_to_see_you
 - rpa.application_for_payment
+- chichat.what_is_your_name
+- chichat.you_are_fool
+slots:
+  project_num:
+    type: unfeaturized
+    auto_fill: false
+  money:
+    type: unfeaturized
+    auto_fill: false
+  acceptance_slip_num:
+    type: unfeaturized
+    auto_fill: false
 templates:
   utter_what_can_you_do:
   - text: 我能做的事儿可多了，比如你可以问我：
@@ -87,9 +57,13 @@ templates:
   utter_i_like_you:
   - text: 笔芯
   - text: 阿姨洗铁路
+  utter_ask_money:
+  - text: "你已选择编号为{project_num}，请提供发票"
+  utter_ask_acceptance_slip_num:
+  - text: "已收到金额{money}，请提供验收单"
 actions:
-- action_search_consume
-- action_tell_jokes
+- action_search_payment_projects
+- action_tell_a_joke
 - utter_i_like_you
 - utter_i_need_help
 - utter_greet
@@ -102,5 +76,6 @@ actions:
 - utter_what_can_you_do
 - utter_are_you_happy
 - utter_are_you_ready
+- utter_ask_money
 forms:
 - application_for_payment_form
