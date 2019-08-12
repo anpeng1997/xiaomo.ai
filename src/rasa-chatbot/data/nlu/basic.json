@@ -1,0 +1,103 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "算了",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "取消",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "退出",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "我不想继续了",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "你帮不了我",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "停止",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "stop",
+                "intent": "basic.stop",
+                "entities": []
+            },
+            {
+                "text": "没错",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "是这样",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "是的",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "ok",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "yes",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "就是这样",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "你做的对",
+                "intent": "basic.affirm",
+                "entities": []
+            },
+            {
+                "text": "谢谢你",
+                "intent": "basic.thanks",
+                "entities": []
+            },
+            {
+                "text": "谢谢你的帮助",
+                "intent": "basic.thanks",
+                "entities": []
+            },
+            {
+                "text": "谢谢",
+                "intent": "basic.thanks",
+                "entities": []
+            },
+            {
+                "text": "thanks",
+                "intent": "basic.thanks",
+                "entities": []
+            },
+            {
+                "text": "thank you",
+                "intent": "basic.thanks",
+                "entities": []
+            }
+        ]
+    }
+}

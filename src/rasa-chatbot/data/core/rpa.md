@@ -12,3 +12,5 @@
   - form{"name": "application_for_payment_form"}
   - slot{"money":"0"}
   - slot{"requested_slot":"acceptance_slip_num"}
+* thankyou
+  - utter_noworries
