@@ -1,4 +1,4 @@
-.sender-container{
+.sender-container {
     position: absolute;
     bottom: 0px;
     border-top: 1px solid red;
@@ -6,4 +6,35 @@
     height: 50px;
     display: grid;
     grid-template-columns: 50px auto 50px;
+    background: #efefef;
+}
+
+.sender-icon-btn {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: transparent;
+}
+
+.sender-icon-btn > .icon {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.sender-icon-btn:focus{
+    outline: none;
+    background: transparent;
+}
+
+.sender-input{
+    background: #ffffff;
+    height: 38px;
+    margin-top: 6px;
+    line-height: 38px;
+    padding: 0px 5px; 
+    font-size: 16px;
+    color: #333333;
+    border-radius: 3px;
 }

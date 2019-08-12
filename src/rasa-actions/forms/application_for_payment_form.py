@@ -18,5 +18,6 @@ class ApplicationForPaymentForm(FormAction):
 
 
     def submit(self, dispatcher, tracker, domain) -> List[Dict]:
-        dispatcher.utter_template("utter_submit", tracker)
+        # dispatcher.utter_template("utter_submit", tracker)
+        dispatcher.utter_message("信息填完了")
         return []
